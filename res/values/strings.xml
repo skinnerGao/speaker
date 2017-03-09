@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">speaker</string>
+    <string name="action_settings">Settings</string>
+    <string name="tips">Tips:</string>
+    <string name="input">内容</string>
+    <string name="play">播放</string>
+    <string name="OpenrandomPlay">开启随机播放</string>
+    <string name="closerandomPlay">关闭随机播放</string>
+    <string name="stop">停止</string>
+    <string name="hint_input">选择播放内容</string>
+    <string name="time">时间</string>
+    <string name="speed">语速</string>
+    <string name="fast">较快</string>
+    <string name="normal">标准</string>
+    <string name="slow">较慢</string>
+    <string name="pitch">音高</string>
+    <string name="low">低音</string>
+    <string name="alto">中音</string>
+    <string name="high">高音</string>
+     <string name="engine">引擎</string>
+     <string name="ibm">IBM</string>
+     <string name="google">谷歌</string>
+     <string name="xunfei">讯飞</string>
+     <string name="sex">性别</string>
+     <string name="men">男</string>
+     <string name="women">女</string>
+     <string name="content">播放内容</string>
+     <string name="recordText">选择音频文件</string>
+      <string name="timeUnit">秒</string>
+     <string name="intervalcontent">3</string>
+     <string name="interval">间隔</string>
+     <string name="browse">选择文本</string>
+     <string name="recordchoose">选择录音</string>
+     <string name="choose">选择</string>
+     <string name="txt">内容</string>
+     <string name="record">录音</string>
+     <string name="all">全选</string>
+     <string name="deall">反选</string>
+     <string name="ok">确定</string>
+     <string name="cancel">取消</string>
+    <string name="hint_output">播放完成时间戳</string>
+    <string name="app_id">574bab3b</string>
+    <string name="xunfei_info">语音功能由讯飞提供\n</string>
+    <string name="files">文件</string>
+    <string name="directories">文件夹</string>
+    <string name="goUp">Go Up</string>
+    <string name="none">取消全选</string>
+    <string name="ext">外部存储</string>
+    <string name="Int">内置存储</string>
+    <string name="New">新建文件夹</string>
+    <string name="CNew">输入文件夹名称</string>
+    <string name="create">新建</string>
+    
+    <string name="note_txt">使用备注:\n\n讯飞示例:\nadb shell am broadcast -a HUD.TEST -e type XUNFEI -e content \"test\"\n\n
+         本机文件示例:\nadb shell am broadcast -a HUD.TEST -e type PATH -e musicname \"test\"\n\n
+         Google引擎示例:\nadb shell am broadcast -a HUD.TEST -e type GOOGLE -e content \"test\"\n\n
+        IBM引擎示例:\nadb shell am broadcast -a HUD.TEST -e type IBM -e content \"test\"\n\n </string>
+
+</resources>
